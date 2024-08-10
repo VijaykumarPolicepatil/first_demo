@@ -1,0 +1,36 @@
+/* Navbar.css */
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar-brand {
+    display: flex;
+    align-items: center;
+    color: inherit; /* Ensure text color is inherited from navbar */
+}
+
+.navbar-logo {
+    height: 40px; /* Adjust the height as needed */
+    margin-right: 10px; /* Space between logo and title */
+}
+
+.navbar-toggler-icon {
+    background-image: url("path/to/your/icon.svg"); /* Replace with your icon path */
+}
+
+.navbar-nav .nav-link {
+    color: inherit; /* Ensure link color is inherited from navbar */
+}
+
+/* Dark mode adjustments */
+.bg-dark {
+    background-color: #343a40 !important;
+}
+
+.text-light {
+    color: #f8f9fa !important;
+}
+
+/* Add any other custom styles here */
